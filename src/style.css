@@ -1,0 +1,13 @@
+@font-face {
+    font-family: "Prociono";
+    src: url('./Prociono.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+.center {
+    margin: auto;
+    font-family: "Prociono";
+    font-size: 64px;
+    text-align: center;        
+}
