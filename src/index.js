@@ -1,13 +1,10 @@
+import '../node_modules/modern-normalize/modern-normalize.css';
 import './style.css';
-import profile from './cowboy_profile.png';
 
 function render() {
-    const appRoot = document.createElement('div');    
+    const appRoot = document.getElementById('root');
     appRoot.innerHTML = "<p>🤠&nbspHowdy, World!&nbsp🤠</p>";
     appRoot.classList.add('center');
-    const img = new Image();
-    img.src = profile;    
-    appRoot.appendChild(img);    
     document.body.appendChild(appRoot);
 }
 
